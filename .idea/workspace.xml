@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f3bef76-4f76-44f2-a8ec-191e552b8beb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ines/gameinfo/cli/service/APICourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ines/gameinfo/cli/service/APICourseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-info-cli/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-info-cli/src/main/java/ines/gameinfo/cli/service/CourseStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-info-cli/src/test/java/ines/gameinfo/cli/service/CourseStorageServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-info-repository/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-info-repository/src/main/java/ines/courseinfo/domain/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-info-repository/src/main/java/ines/courseinfo/repository/CourseJdbcRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-info-repository/src/main/java/ines/courseinfo/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-info-repository/src/main/java/ines/courseinfo/repository/RepositoryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-info-repository/src/test/java/ines/courseinfo/domain/CourseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ines/gameinfo/cli/GameRetriever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ines/gameinfo/cli/GameRetriever.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ines/gameinfo/cli/service/GameRetrievalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ines/gameinfo/cli/service/GameRetrievalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ines/gameinfo/cli/GameRetriever.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-cli/src/main/java/ines/gameinfo/cli/GameRetriever.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ines/gameinfo/cli/service/APICourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-cli/src/main/java/ines/gameinfo/cli/service/APICourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ines/gameinfo/cli/service/GameRetrievalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-cli/src/main/java/ines/gameinfo/cli/service/GameRetrievalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ines/gameinfo/cli/service/APICourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-cli/src/test/java/ines/gameinfo/cli/service/APICourseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -52,42 +64,33 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "17",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.15668201",
     "settings.build.tools.auto.reload": "ALL",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ines.courseinfo.repository" />
       <recent name="ines.courseinfo.cli.service" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\benji\Desktop\Java\course-info-app\course-info-cli" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ines.gameinfo.cli.service" />
+      <recent name="ines.courseinfo.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.APICourseTest">
-    <configuration name="CourseRetriever" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ines.courseinfo.cli.CourseRetriever" />
-      <module name="game-info-app" />
-      <option name="PROGRAM_PARAMETERS" value="sander-mak" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ines.courseinfo.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.GameRetriever">
     <configuration name="GameRetriever" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ines.gameinfo.cli.GameRetriever" />
-      <module name="game-info-app" />
       <option name="PROGRAM_PARAMETERS" value="sander-mak" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="APICourseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="course-info-app" />
+    <configuration name="APICourseTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course-info-cli" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ines.gameinfo.cli.service.*" />
@@ -109,6 +112,52 @@
       </extension>
       <option name="PACKAGE_NAME" value="ines.gameinfo.cli.service" />
       <option name="MAIN_CLASS_NAME" value="ines.gameinfo.cli.service.APICourseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseStorageServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course-info-cli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ines.gameinfo.cli.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ines.gameinfo.cli.service" />
+      <option name="MAIN_CLASS_NAME" value="ines.gameinfo.cli.service.CourseStorageServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseStorageServiceTest.storeAPICourses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course-info-cli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ines.gameinfo.cli.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ines.gameinfo.cli.service" />
+      <option name="MAIN_CLASS_NAME" value="ines.gameinfo.cli.service.CourseStorageServiceTest" />
+      <option name="METHOD_NAME" value="storeAPICourses" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course-info-repository" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ines.courseinfo.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ines.courseinfo.domain" />
+      <option name="MAIN_CLASS_NAME" value="ines.courseinfo.domain.CourseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,14 +178,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.GameRetriever" />
-      <item itemvalue="Application.CourseRetriever" />
-      <item itemvalue="JUnit.APICourseTest" />
+      <item itemvalue="JUnit.APICourseTest (1)" />
+      <item itemvalue="JUnit.CourseStorageServiceTest" />
+      <item itemvalue="JUnit.CourseStorageServiceTest.storeAPICourses" />
+      <item itemvalue="JUnit.CourseTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.APICourseTest" />
         <item itemvalue="Application.GameRetriever" />
-        <item itemvalue="Application.CourseRetriever" />
+        <item itemvalue="JUnit.CourseStorageServiceTest.storeAPICourses" />
+        <item itemvalue="JUnit.CourseStorageServiceTest" />
+        <item itemvalue="JUnit.CourseTest" />
+        <item itemvalue="JUnit.APICourseTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -150,5 +203,16 @@
       <updated>1675685373846</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/course-info-cli/src/main/java/ines/gameinfo/cli/service/CourseStorageService.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

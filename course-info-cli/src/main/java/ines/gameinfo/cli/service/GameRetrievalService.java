@@ -14,7 +14,6 @@ import java.util.List;
 public class GameRetrievalService {
 
     public static final String PS_URI = "https://app.pluralsight.com/profile/data/author/%s/all-content";
-
     public static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
     public static final HttpClient CLIENT = HttpClient
             .newBuilder()
@@ -22,7 +21,7 @@ public class GameRetrievalService {
             .build();
     public List<APICourse> getGamesFor(String userId){
         System.out.println(PS_URI.formatted(userId));
-        HttpRequest request =HttpRequest
+        HttpRequest request = HttpRequest
                 .newBuilder(URI.create(PS_URI.formatted(userId)))
                 .GET()
                 .build();

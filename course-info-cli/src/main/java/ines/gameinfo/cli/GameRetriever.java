@@ -1,6 +1,8 @@
 package ines.gameinfo.cli;
 
+import ines.courseinfo.repository.CourseRepository;
 import ines.gameinfo.cli.service.APICourse;
+import ines.gameinfo.cli.service.CourseStorageService;
 import ines.gameinfo.cli.service.GameRetrievalService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,6 +30,8 @@ public class GameRetriever {
     private static void retrieveGames(String authorId) {
         LOG.info("retrieving games for user '{}'", authorId);
         GameRetrievalService gameRetrievalService = new GameRetrievalService();
+        CourseRepository courseRepo = CourseRepository.openCourseRepository("./courses.db");
+        CourseStorageService courseStorageService = new CourseStorageService(courseRepo);
 
         List<APICourse> gamesRetrieved = gameRetrievalService.getGamesFor( authorId )
                 .stream()
@@ -36,6 +40,9 @@ public class GameRetriever {
                 .toList();
 
         LOG.info("Retrieved the following {} games {}", gamesRetrieved.size(), gamesRetrieved);
+
+        courseStorageService.storeAPICourses(gamesRetrieved);
+        LOG.info("Courses successfully stored :)");
     }
 
 }
