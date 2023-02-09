@@ -11,13 +11,12 @@
     <modules>
         <module>course-info-repository</module>
         <module>course-info-cli</module>
+        <module>course-info-server</module>
     </modules>
 
     <properties>
         <maven.compiler.release>17</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <slf4j.version>1.7.36</slf4j.version>
-        <jackson.version>2.13.3</jackson.version>
     </properties>
 
     <build>

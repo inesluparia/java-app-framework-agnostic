@@ -2,6 +2,7 @@ package ines.gameinfo.cli.service;
 import ines.courseinfo.domain.Course;
 import ines.courseinfo.repository.CourseRepository;
 import java.util.List;
+import java.util.Optional;
 
 public class CourseStorageService {
     private static final String PS_BASE_URL = "https://app.pluralsight.com";
@@ -14,7 +15,7 @@ public class CourseStorageService {
         for (APICourse apiCourse : apiCourses) {
             Course course = new Course(apiCourse.id(),
                     apiCourse.title(), apiCourse.durationInMinutes(),
-                    PS_BASE_URL + apiCourse.contentUrl());
+                    PS_BASE_URL + apiCourse.contentUrl(), Optional.empty());
             courseRepository.saveCourse(course);
         }
     }
