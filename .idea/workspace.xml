@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f3bef76-4f76-44f2-a8ec-191e552b8beb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/course-info-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-info-server/src/main/java/ines/courseinfo/server/CourseResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-info-server/src/main/java/ines/courseinfo/server/CourseServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-info-server/src/main/resources/server.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-info-cli/src/main/java/ines/gameinfo/cli/service/CourseStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-cli/src/main/java/ines/gameinfo/cli/service/CourseStorageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-info-cli/src/test/java/ines/gameinfo/cli/service/CourseStorageServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-cli/src/test/java/ines/gameinfo/cli/service/CourseStorageServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-info-repository/src/main/java/ines/courseinfo/domain/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-repository/src/main/java/ines/courseinfo/domain/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-info-repository/src/main/java/ines/courseinfo/repository/CourseJdbcRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-repository/src/main/java/ines/courseinfo/repository/CourseJdbcRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-info-repository/src/main/java/ines/courseinfo/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-repository/src/main/java/ines/courseinfo/repository/CourseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-info-repository/src/test/java/ines/courseinfo/domain/CourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-repository/src/test/java/ines/courseinfo/domain/CourseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses.db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/courses.db.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-info-server/src/main/java/ines/courseinfo/server/CourseServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-server/src/main/java/ines/courseinfo/server/CourseServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
